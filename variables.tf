@@ -30,12 +30,12 @@ variable "activate_on_prod" {
 
 variable "prod_version" {
   description = "The version to use on production"
-  type        = numberdefault
+  type        = number
   default     = null
 }
 
 variable "staging_version" {
   description = "The version to use on staging, latest by default"
-  type        = numberdefault
+  type        = number
   default     = null
 }
