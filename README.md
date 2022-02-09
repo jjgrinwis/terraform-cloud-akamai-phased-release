@@ -4,3 +4,5 @@ Make sure you have added the Phased Release Cloudlet and [Conditional Origin Gro
 to you Akamai property configuration. This conditional origin can be used in your Phased Release Cloudlet rules if there is a match on a specific rule.<br>
 
 ![image](https://user-images.githubusercontent.com/3455889/151527055-c55540b9-219d-442e-98fb-a931d3dcb8b2.png)
+
+This is a single .tf file setup which will automatically enable the latest version on staging. You need to activate prod and select specific version otherwise it will automatically use the latest one.
