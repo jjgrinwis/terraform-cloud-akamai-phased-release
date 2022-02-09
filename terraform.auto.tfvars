@@ -9,3 +9,6 @@ hostnames = ["api.grinwis.com"]
 
 # description match values for single match value
 to_deta_match_value = "/*/1019 /*/1011 /*/1012 /*/1013 /*/1014"
+
+# activate on prod
+activate_on_prod = true
