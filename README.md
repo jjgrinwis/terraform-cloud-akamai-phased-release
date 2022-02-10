@@ -5,4 +5,4 @@ to you Akamai property configuration. This conditional origin can be used in you
 
 ![image](https://user-images.githubusercontent.com/3455889/151527055-c55540b9-219d-442e-98fb-a931d3dcb8b2.png)
 
-This is a single .tf file setup which will automatically enable the latest version on staging. You need to activate prod and select specific version otherwise it will automatically use the latest one.
+This is a single .tf file setup which will automatically enable the latest version on staging. You need to activate prod by setting 'activate_on_prod' to 'true' and select specific version otherwise it will automatically use the latest one.
